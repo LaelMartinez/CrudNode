@@ -1,8 +1,14 @@
 // repositories/UserRepository.js
-const db = require('../config/database');
+const db = require('c:/node/my-crud-app/config/database');
 
 class UserRepository {
-  async findAll() {
+  constructor() {
+    //  this.db = require('../config/database');
+    // Você pode adicionar qualquer inicialização aqui, se necessário.
+    // Por exemplo, configurar uma instância do pg-promise.
+  }
+
+  async findAll() {     
     return await db.any('SELECT * FROM users');
   }
 

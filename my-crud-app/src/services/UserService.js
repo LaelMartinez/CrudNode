@@ -4,6 +4,8 @@ const User = require('../models/User');
 
 class UserService {
   constructor() {
+    this.UserRepository = require('../repositories/UserRepository');
+    this.User = require('../models/User');
     this.userRepository = new UserRepository();
   }
 

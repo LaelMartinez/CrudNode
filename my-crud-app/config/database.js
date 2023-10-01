@@ -8,9 +8,9 @@ const pgp = require('pg-promise')(initOptions);
 const connection = {
   host: 'localhost', // Host do PostgreSQL
   port: 5432, // Porta do PostgreSQL
-  database: 'sua_database', // Nome da sua base de dados
-  user: 'seu_usuario', // Seu nome de usuário do PostgreSQL
-  password: 'sua_senha', // Sua senha do PostgreSQL
+  database: 'node', // Nome da sua base de dados
+  user: 'postgres', // Seu nome de usuário do PostgreSQL
+  password: '123456', // Sua senha do PostgreSQL
 };
 
 const db = pgp(connection);
