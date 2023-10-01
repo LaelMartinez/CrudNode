@@ -1,0 +1,10 @@
+my-crud-app/
+  ├── src/
+  |   ├── controllers/
+  |   ├── services/
+  |   ├── repositories/
+  |   ├── models/
+  |   ├── routes/
+  |   ├── index.js
+  ├── config/
+  ├── package.json
