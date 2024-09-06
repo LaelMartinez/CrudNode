@@ -4,7 +4,7 @@
 ![Express.js](https://img.shields.io/badge/Express.js-4.17.1-blue)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13.4-orange)
 
-Este é um projeto de aplicação CRUD (Create, Read, Update, Delete) simples em Node.js com Clean Architecture, usando PostgreSQL como banco de dados. O projeto foi criado com a ajuda do ChatGPT, um modelo de linguagem da OpenAI.
+Este é um projeto de aplicação CRUD (Create, Read, Update, Delete) simples em Node.js com Clean Architecture, usando PostgreSQL como banco de dados.
 
 ## Funcionalidades
 
@@ -48,9 +48,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issue
 Licença
 Este projeto está licenciado sob a Licença MIT.
 
-Este projeto foi criado com a ajuda do ChatGPT, um modelo de linguagem da OpenAI. Todas as funcionalidades, estrutura e configurações foram geradas com base em respostas às perguntas feitas ao ChatGPT.
 
-Powered by ChatGPT
 
 
 
